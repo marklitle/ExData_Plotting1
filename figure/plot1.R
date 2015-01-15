@@ -1,12 +1,12 @@
 #20150112
 #marklittle
-setwd("D:\\R学习笔记\\Exploratory Data Analysis\\week 1")
+#setwd("D:\\R脩搂脧掳卤脢录脟\\Exploratory Data Analysis\\week 1")
 #fileURL<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 #download.file(fileURL,destfile="./t1.zip",method="curl",extra="-k")
 
-library(dplyr)
-print("--------------")
-d1<-read.table("household_power_consumption.txt",colClasses=c("character","character","character","character","character","character","character","character","character"),header=TRUE,sep=";")#解决Factor问题。
+#library(dplyr)
+#print("--------------")
+d1<-read.table("household_power_consumption.txt",colClasses=c("character","character","character","character","character","character","character","character","character"),header=TRUE,sep=";")#陆芒戮枚Factor脦脢脤芒隆拢
 
 
 c1<-paste(d1$Date, d1$Time)
